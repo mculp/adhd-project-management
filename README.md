@@ -1,15 +1,27 @@
-# lazy-managment-tool
-A shell-based project management tool for the tool-fatigue developer.
+# adhd-project-management
+A shell-based project management tool for the engineer whom has a short attention span.
 
-It might be limited to small teams, but there is no learning curve, no outdated versions, and no installation overhead.
+> It might be limited to small teams, but there is no learning curve, no outdated versions, and no installation overhead.
 
-# Installation 
-`wget https://raw.githubusercontent.com/RobinLinus/lazy-project-managment/master/todos && chmod +x todos`
+# Installation
+If you keep a directory structure like I do, which is:
 
-# Usage 
-1. Use comments like `// TODO: Some urgent task` in your `.js` sources.
-2. Enter `./todos` to list your todos.
+```
+~/code
+   |- work
+   |--- app_one
+   |--- app_two
+   |- projects
+   |--- derpin_around
+   |--- cant_get_outta_this_rabbithole
+```
 
-# Customization
-- `man grep`
-- `man sed`
+`cd ~/code && wget https://raw.githubusercontent.com/mculp/adhd-project-managment/main/todos && chmod +x todos`
+
+# Usage
+1. Use comments like `# TODO: Some urgent task` in your `.rb` sources.
+2. Add `~/code` to your `$PATH`
+3. Enter `./todos` to list your todos.
+
+# Prioritization
+Add `priority N` somewhere in the comment, where N is an integer. Your todos will be ordered by priority descending.
