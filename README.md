@@ -33,3 +33,4 @@ If you keep a directory structure like I do, which is:
 [//]: # (TODO: Add `priority N` somewhere in the comment, where N is an integer. Your todos will be ordered by priority descending.)
 [//]: # (TODO: More language support)
 [//]: # (TODO: Code golf it into an alias?)
+[//]: # (TODO: Maybe start a suite of adhd tools, such as `git recent`)
