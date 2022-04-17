@@ -27,7 +27,7 @@ If you keep a directory structure like I do, which is:
 
 # Language support
 - Ruby
-- Markdown (check the contents of this raw file ;)
+- Markdown (check the raw contents of this file ;)
 
 [//]: # (TODO: # Prioritization)
 [//]: # (TODO: Add `priority N` somewhere in the comment, where N is an integer. Your todos will be ordered by priority descending.)
