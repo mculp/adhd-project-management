@@ -18,10 +18,18 @@ If you keep a directory structure like I do, which is:
 
 `cd ~/code && wget https://raw.githubusercontent.com/mculp/adhd-project-managment/main/todos && chmod +x todos`
 
-# Usage
-1. Use comments like `# TODO: Some urgent task` in your `.rb` sources.
-2. Add `~/code` to your `$PATH`
-3. Enter `./todos` to list your todos.
 
-# Prioritization
-Add `priority N` somewhere in the comment, where N is an integer. Your todos will be ordered by priority descending.
+
+# Usage
+1. Use comments like `# TODO: Some urgent task` in your sources.
+2. Add `~/code` to your `$PATH`
+3. Run `./todos` to list your todos.
+
+# Language support
+- Ruby
+- Markdown (check the contents of this raw file ;)
+
+[//]: # (TODO: # Prioritization)
+[//]: # (TODO: Add `priority N` somewhere in the comment, where N is an integer. Your todos will be ordered by priority descending.)
+[//]: # (TODO: More language support)
+[//]: # (TODO: Code golf it into an alias?)
