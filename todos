@@ -1,1 +1,1 @@
-grep -nr --include "*.js" "// TODO:" | sed "s/\/\/ TODO://g" | sed "s|.*/||g"
+grep -nr --include "*.rb" --include ".md" "TODO:" | sed -e "s/#//" -e "s/TODO://g" -e "s|.*/||g"
