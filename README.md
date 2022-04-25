@@ -34,3 +34,4 @@ If you keep a directory structure like I do, which is:
 [//]: # (TODO: More language support)
 [//]: # (TODO: Code golf it into an alias?)
 [//]: # (TODO: Maybe start a suite of adhd tools, such as `git recent`)
+[//]: # (TODO: https://rubydoc.info/gems/yard/file/docs/Tags.md#todo)
